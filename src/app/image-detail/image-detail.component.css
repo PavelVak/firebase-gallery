@@ -1,0 +1,11 @@
+.img-container {
+  margin: 100px auto 20px;
+  box-shadow: #555 1px 2px 8px 1px;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+img {
+  width: 100%;
+}

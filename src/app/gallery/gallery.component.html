@@ -1,0 +1,10 @@
+<div class="row">
+  <h2>{{pageTitle}}</h2>
+  <ul id="thumbnailsList">
+    <li class="img" *ngFor="let image of images | async">
+      <a [routerLink]="['/image', image.$key]">
+        <img src="{{image.url}}" class="thumbnail">
+      </a>
+    </li>
+  </ul>
+</div>
